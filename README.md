@@ -1,4 +1,5 @@
-## GraphEPV and PEICA: Graph Neural Network Expected Possession Value and Player Evaluation through Individual Credit Attribution in Soccer via Sports-Specific Shapley Coalitions
+<div align="center"><h2>GraphEPV and PEICA: Graph Neural Network Expected Possession Value and Player Evaluation through Individual Credit Attribution in Soccer via Sports-Specific Shapley Coalitions</h2></div>
+
 
 ### Introduction
 In this research, we introduce GraphEPV, a graph neural network architecture that predicts the probability of scoring a goal within the next 10 seconds, and PEICA, a custom sports-specific Shapley method for player evaluation through individual credit attribution. This approach allows us to derive the moment-to-moment impact of each player throughout a game as it relates to their team's objective of scoring or preventing goals.
