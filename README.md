@@ -7,10 +7,10 @@ In this research, we introduce GraphEPV, a graph neural network architecture tha
 
 ### Methods
 
-#### Graph Neural Network
+#### Graph Neural Network Expected Possession Value
 We train, test and validate GraphEPV using 63 matches of [**public** World Cup 2022 tracking and event data](https://drive.google.com/drive/folders/1_a_q1e9CXeEPJ3GdCv_3-rNO3gPqacfa), where each graph represents a single frame of positional data. Data from the final is set aside for further validation. Despite the limited number of goals in our dataset, our model achieves a Precision-Recall AUC of 0.0643, an 11x improvement over random guessing.
 
-#### PEICA
+#### PEICA: Player Evaluation through Individual Credit Attribution
 To quantify individual player contributions to their team’s objective, we employ a Shapley method where we generate 1,000 masked graph variants per frame. For each variant, a random subset of players is masked using the average values of a different random subset of teammates. This team-aware masking strategy preserves the underlying graph structure while systematically removing individual player influences. We then make predictions on these randomly adjusted graphs using GraphEPV. By comparing predictions across masked coalitions, we uncover each player's contribution to the predicted probability of scoring or preventing a goal within the next 10 seconds.
 
 In Figure 1, we can clearly identify individual player contributions throughout the possession sequence. 
