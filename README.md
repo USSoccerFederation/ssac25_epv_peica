@@ -1,6 +1,4 @@
-# GraphEPV and PEICA: Graph Neural Network Expected Possession Value and Player Evaluation through Individual Credit Attribution in Soccer via Sports-Specific Shapley Coalitions
-
-----
+## GraphEPV and PEICA: Graph Neural Network Expected Possession Value and Player Evaluation through Individual Credit Attribution in Soccer via Sports-Specific Shapley Coalitions
 
 ### Introduction
 In this research, we introduce GraphEPV, a graph neural network architecture that predicts the probability of scoring a goal within the next 10 seconds, and PEICA, a custom sports-specific Shapley method for player evaluation through individual credit attribution. This approach allows us to derive the moment-to-moment impact of each player throughout a game as it relates to their team's objective of scoring or preventing goals.
@@ -18,13 +16,13 @@ It depicts the end position (and prior movements) of a possession sequence with 
 
 <div align="center">
   <img src="assets/peica.png" alt="PEICA Image" width="600">
-  <p><strong>Figure 1.</strong> A sequence of play from the 2022 World Cup final, highlighting individual player contributions to <span style="color: #e91e63; font-weight: bold;">attacking team</span> and <span style="color: #2196f3; font-weight: bold;">defensive team</span> objectives. Ball follows dotted line.</p>
+  <p><strong>Figure 1.</strong> A sequence of play from the 2022 World Cup final, highlighting individual player contributions to <strong>attacking team (Argentina)</strong> and <strong>defensive team (France)</strong> objectives. Ball follows dotted line.</p>
 </div>
 
 #### Results
 We validate PEICA by comparing player total scores of ten different possession sequences to standardized expert ratings (μrater) from ten U.S. Soccer Youth National Team Head Coaches and Performance Analysts. These ratings are given on a 5-point Likert scale using anonymized tracking data videos from the final, one per possession sequence. Our ten raters achieve an Intraclass Correlation Coefficient (ICC) of 0.967 and their average ratings have a Spearman’s rank correlation of 0.536 with PEICA. Additionally, we compare our results to an event data framework that values on-ball actions by estimating scoring probabilities (VAEP) [Decroos 2019 et al.] to show a tremendous increase in both quality and quantity of insights, interpretability and granularity gained when using PEICA (see Table 1).
 
-<center>
+<div align="center">
 <table>
   <thead>
     <tr>
@@ -201,7 +199,7 @@ We validate PEICA by comparing player total scores of ten different possession s
 
 <p><strong>Table 1.</strong> PEICA, the average standardized rating (μ<sub>rater</sub>) and VAEP (on-ball events only: [1] pass, [2] carry) for the possession sequence shown in Figure 1. Spearman's rank correlation between PEICA and μ<sub>rater</sub> for this example is 0.61.</p>
 
-</center>
+</div>
 
 #### Conclusion
 PEICA allows us to evaluate player performance by directly quantifying each player's added value towards offensive or defensive team objectives, valuing both traditional measurable actions and previously unquantifiable tactical elements like tracking back, support runs, and other on and off-ball behaviors.
