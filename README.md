@@ -25,7 +25,7 @@ It depicts the end position (and prior movements) of a possession sequence with 
 ---
 
 #### Results
-We validate PEICA by comparing player total scores of ten different possession sequences to standardized expert ratings (μrater) from ten U.S. Soccer Youth National Team Head Coaches and Performance Analysts. These ratings are given on a 5-point Likert scale using anonymized tracking data videos from the final, one per possession sequence. Our ten raters achieve an Intraclass Correlation Coefficient (ICC) of 0.967 and their average ratings have a Spearman’s rank correlation of 0.536 with PEICA. Additionally, we compare our results to an event data framework that values on-ball actions by estimating scoring probabilities (VAEP) [Decroos 2019 et al.] to show a tremendous increase in both quality and quantity of insights, interpretability and granularity gained when using PEICA (see Table 1).
+We validate PEICA by comparing player total scores of ten different possession sequences to standardized expert ratings (μ<sub>rater</sub>) from ten U.S. Soccer Youth National Team Head Coaches and Performance Analysts. These ratings are given on a 5-point Likert scale using anonymized tracking data videos from the final, one per possession sequence. Our ten raters achieve an Intraclass Correlation Coefficient (ICC) of 0.967 and their average ratings have a Spearman’s rank correlation of 0.536 with PEICA. Additionally, we compare our results to an event data framework that values on-ball actions by estimating scoring probabilities (VAEP) [Decroos 2019 et al.] to show a tremendous increase in both quality and quantity of insights, interpretability and granularity gained when using PEICA (see Table 1).
 
 <div align="center">
 <table>
